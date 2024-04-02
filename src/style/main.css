@@ -1,0 +1,226 @@
+body {
+    height: 1048px;
+    background-color: #f7f7ff;
+}
+
+.header {
+    margin: 22px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn__acess button, a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 244px;
+    height: 39px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 18px;
+    text-decoration: none;
+    background-color: #E8E8F0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn__acess button:hover {
+    scale: 1.1;
+
+}
+
+/* SALDO */
+
+.section {
+    display: flex;
+    align-items: center;
+    padding: 23px 48px;
+    gap: 71px;
+    background-color: #820ad1;
+    color: white;
+    height: 128px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.name h1 {
+    font-size: 14px;
+    font-weight: 500;
+    height: 24px;
+}
+
+.saldo {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.saldo h2 {
+    display: flex;
+    align-items: center;
+    gap: 131px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.saldo h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.boxs {
+    display: flex;
+    gap: 40px;
+}
+
+.boxs span {
+    color: #820ad1;
+}
+
+.box1, .box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 247px;
+    height: 80px;
+    background-color: #E8E8F0;
+    border-radius: 10px;
+    color: #000;
+    font-weight: 500;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.box1:hover, .box2:hover {
+    scale: 1.05;
+
+}
+
+.boxs p {
+    /* width: 210px; */
+    font-size: 12px;
+    /* padding: 18px 16px 14px 15px; */
+}
+
+.cards {
+    display: flex;
+    padding: 24px 40px;
+    gap: 24px;
+}
+
+.cards div {
+    width: 151px;
+    height: 131px;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #d1d1d1;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.cards div:hover {
+    scale: 1.05;
+}
+
+.cards img {
+    padding: 20px;
+    background-color: #E8E8F0;
+    border-radius: 100%;
+}
+
+.cards div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cards p {
+    font-size: 12px;
+    color: #7A7A80;
+    font-weight: 500;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 40px;
+    width: 308px;
+    height: 613px;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #d1d1d1;
+    background-color: white;
+    gap: 32px;
+}
+
+.menu div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu p {
+    display: flex;
+    align-items: start;
+    text-align: start;
+}
+
+.help {
+    display: flex;
+    justify-content: space-between;
+}
+
+.geral {
+    display: flex;
+    gap: 16px;
+}
+
+.content {
+    display: flex;
+}
+
+.content article {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin: 32px 0;
+    width: 474px;
+    height: 190.39px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 21px 23px 22px 24px;
+    box-shadow: 0px 0px 10px #d1d1d1;
+}
+
+.cartao {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.cartao p {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.cartao li {
+    color: #7A7A80;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.name-content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

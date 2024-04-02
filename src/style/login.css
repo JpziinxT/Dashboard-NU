@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.btn-login a, button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    width: 211px;
+    height: 40px;
+    border-radius: 22px;
+    color: #323232;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.btn-login a:hover, button:hover {
+    scale: 1.05;
+}
